@@ -1,0 +1,58 @@
+
+#intro {
+    background-image: url("./images/intro-bg.jpg");
+    background-size: cover;
+    height: 80vh;
+}
+#intro>* {
+    position: relative;
+    top: 40%;
+}
+.text, #intro>* {
+    color: #000957;
+    text-align: center;
+    font-family: "Noto Sans Mongolian", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+/* #hero{
+    background-color: #f8cba67c;
+} */
+img[alt="profile photo"] {
+    border-radius: 50%;
+    height: 150px;
+}
+#projects, #hero{
+    background-image: linear-gradient(#3a6d8ccf, #ead8b1a7);
+}
+.tech-contain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contain{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.img-wrapper{
+    flex: 0 1 400px;
+    min-width: 250px;
+}
+.project-img {
+    border-radius: 5px;
+    width: 100%; /* Ensures the image fills the wrapper */
+    height: 250px;
+}
+.project-btn{
+    background-color: #000957d3 !important;
+}
+@media (max-width:460px){
+    .project-img{
+        height: auto;
+    }
+}
+#footer {
+    background-color: rgba(207, 207, 207, 0.764);
+}
